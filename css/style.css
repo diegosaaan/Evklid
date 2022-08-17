@@ -92,7 +92,7 @@ img {
     padding-top: 100px;
     padding-left: 80px;
     border-radius: 32px;
-    background-image: url(/./img/hero-background.jpg);
+    background-image: url(../img/hero-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
