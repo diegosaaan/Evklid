@@ -69,15 +69,37 @@ img {
     display: flex;
 }
 
-.header__item {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    line-height: 100%;
-}
-
 .header__item:not(:last-child) {
     margin-right: 85px;
+}
+
+.header__link {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.header__link:focus,
+.header__link:active {
+    all: initial;
+    all: unset;
+}
+
+.header__link:hover {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #FF9900;
+}
+
+.header__link:focus {
+    padding: 5px;
+    border: 2px solid #E1670E;
+}
+
+.header__link:active {
+    padding: 5px;
+    border-bottom: 2px solid #E1670E;
+    color: #E1670E;
 }
 
 .header__search {
