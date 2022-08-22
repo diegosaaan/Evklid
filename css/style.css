@@ -3,8 +3,8 @@
 }
 
 html {
-    margin-right: auto;
-    margin-left: auto;
+width: 1920px;
+    margin: auto;
     font-family: "Montserrat";
     font-size: 16px;
     line-height: 1em;
@@ -31,8 +31,9 @@ img {
 }
 
 .container {
-   max-width: 1770px;
-   margin: auto;
+   max-width: 1800px;
+   margin: 0 auto;
+   padding: 0 15px;
 }
 
 .heading {
@@ -115,11 +116,11 @@ img {
 
 .hero__container {
     padding-top: 100px;
-    padding-left: 80px;
+    padding-left: 98px;
     border-radius: 32px;
     background-image: url(../img/hero-background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
 }
 
 .hero__text {
@@ -173,23 +174,27 @@ img {
 /* SECTION ABOUTS-US */
 
 .about-us {
-    margin-top: 50px;
+    margin-top: 48px;
 }
 
 .about-us__text {
     max-width: 1235px;
+    margin-top: 0;
+    margin-top: 19px;
     font-size: 16px;
     line-height: 32px;
 }
 
 .about-us__action {
     display: flex;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
 .action__left-side {
-    flex-basis: 50%;
-    position: relative;
+    display: flex;
+    align-items: flex-end;
+    min-height: 620px;
     margin-right: 32px;
     border-radius: 32px;
     background-image: url(../img/abouts-us-left.jpg);
@@ -199,10 +204,9 @@ img {
 }
 
 .action__left-dicription {
-    position: absolute;
-    bottom: 0;
-    padding: 50px 50px 50px 50px;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 50px;
     border-radius: 32px;
     background-color: rgb(0, 0, 0, .5);
 }
@@ -210,15 +214,21 @@ img {
 .action__left-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .action__left-item {
-    max-width: 433px;
     font-size: 16px;
     line-height: 32px;
     font-weight: 700;
     color: #fff;
+}
+
+.action__left-item:not(:last-child) {
+     margin-right: 160px;
+}
+
+.left-item-text {
+    max-width: 435px;
 }
 
 .action_left-link {
@@ -244,7 +254,6 @@ img {
 
 .action__right-side {
     display: flex;
-    flex-basis: 50%;
 }
 
 .action__right-list {
@@ -254,7 +263,7 @@ img {
 
 .action__right-item {
     display: flex;
-    padding: 65px 115px 65px 58px;
+    padding: 65px 115px 65px 57px;
     border: 1px solid #CACACA;
     border-radius: 32px;
 }
@@ -270,7 +279,6 @@ img {
 }
 
 .action__right-description {
-    max-width: 470px;
     font-size: 24px;
     line-height: 29px;
     font-weight: 700;
