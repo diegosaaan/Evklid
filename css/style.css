@@ -195,7 +195,7 @@ img {
     display: flex;
     align-items: flex-end;
     min-height: 620px;
-    min-width: 868px;
+    max-width: 868px;
     margin-right: 32px;
     border-radius: 32px;
     background-image: url(../img/abouts-us-left.jpg);
@@ -223,7 +223,7 @@ img {
 }
 
 .left-item-text {
-    max-width: 435px;
+    margin-right: 160px;
 }
 
 .action_left-link {
