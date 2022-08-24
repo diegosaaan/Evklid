@@ -15,6 +15,12 @@ body {
     font-weight: 400;
 }
 
+.visibility-hidden {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -131,7 +137,7 @@ img {
     background-image: url(../img/hero-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    
 }
 
 .hero__text {
@@ -149,7 +155,6 @@ img {
     font-size: 70px;
     line-height: 85px;
     font-weight: 800;
-    color: #fff;
 }
 
 .hero__description {
@@ -478,6 +483,7 @@ img {
     background-size: 31px 31px;
     background-color: #CACACA;
     transition: .3s linear;
+    flex-shrink: 0;
 }
 
 .popular-quastion__item:hover {
@@ -653,7 +659,6 @@ img {
 .footer__center-block {
     display: flex;
     flex-direction: column;
-    
 }
 
 .footer__heading {
@@ -671,7 +676,7 @@ img {
 .footer__input {
     margin-bottom: 24px;
     padding-left: 24px;
-    width: 570px;
+    max-width: 570px;
     height: 60px;
     color: #fff;
     border: none;

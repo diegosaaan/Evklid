@@ -1,0 +1,173 @@
+
+
+@media (max-width:768px) {
+    .container {
+        max-width: 668px;
+        padding: 0;
+    }
+
+    /* HEADER */
+
+    .header {
+        height: 70px;
+    }
+
+        /* HEADER */
+
+        /* SECTION HERO */
+
+    .hero {
+        margin-top: 40px;
+    }
+
+    .hero__container {
+        padding: 160px 40px;
+        background-image: url(../img/hero-768-first.jpg);
+        background-size: cover;
+        border-radius: 24px;
+    }
+
+    .hero__heading {
+        margin-bottom: 16px;
+        font-size: 50px;
+        line-height: 61px;
+    }
+    
+    .hero__description {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    /* SECTION HERO */
+
+    /* SECTION ABOUT US */
+
+    .about-us {
+        margin-top: 32px;
+    }
+
+    .action__left-side {
+        min-height: 650px;
+        border-radius: 24px;
+    }
+
+    .action__left-dicription {
+        padding: 19px 40px;
+        border-radius: 24px;
+    }
+
+    .left-item-text {
+        margin-right: 47px;
+    }
+
+    .action__right-side {
+        min-height: auto;
+    }
+
+    .action__right-item {
+        padding: 33px 44px 35px 40px;
+        max-width: 668px;
+        border-radius: 24px;
+    }
+
+    .action__right-icon {
+        margin-top: 30px;
+        margin-right: 16px;
+        width: 114px;
+        height: 99px;
+    }
+
+
+    /*  ABOUT US */
+
+    /* HOW WE WORK */
+    
+    .how-we-work {
+        margin-top: 80px;
+    }
+
+    .how-we-work__heading {
+        margin-bottom: 45px;
+    }
+
+    .how-we-work__list {
+        justify-content: space-between;
+        margin: 0;
+        margin-bottom: 49px;
+    }
+
+    .how-we-work__slider {
+        flex-direction: column-reverse;
+    }
+    
+    .slider__right-side,
+    .slider__left-side {
+        width: 100%;
+    }
+
+    .slider__right-side {
+        margin-bottom: 40px;
+        min-height: 284px;
+        background-image: url(../img/how-we-work-768-first.png);
+        border-radius: 24px;
+    }
+
+    .slider__left-text-br {
+        display: none;
+    }
+
+    
+    /* HOW WE WORK */
+
+   /* POPULAR QUASTION */
+   
+   .popular-quastion {
+       margin-top: 50px;
+   }
+
+   .popular-quastion__title {
+       max-width: 570px;
+       margin-right: 50px;
+   }
+
+   /* POPULAR QUASTION */
+
+   /* FOOTER */
+
+   .footer {
+    margin-top: 112px;
+   }
+
+   .footer__container {
+    flex-direction: column-reverse;
+    padding: 50px;
+    padding-bottom: 60px;
+   }
+
+   .footer__logo {
+    margin-bottom: 16px;
+   }
+
+   .footer__list {
+    display: none;
+   }
+
+   .footer__list-soc {
+    margin: 0;
+   }
+
+   .footer__center-block {
+    margin: 0;
+    margin-bottom: 50px;
+   }
+
+   .footer__input {
+    max-width: 541px;
+   }
+
+   .footer__button {
+    max-width: 241px;
+}
+
+}
+ 

@@ -2,8 +2,8 @@
 
 @media (max-width:1024px) {
     .container {
-        max-width: 924px;
-        padding: 0;
+        max-width: 954px;
+        padding: 0 15px;
     }
 
     /* HEADER */
