@@ -131,6 +131,7 @@ img {
     background-image: url(../img/hero-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .hero__text {
@@ -668,17 +669,14 @@ img {
 }
 
 .footer__input {
+    margin-bottom: 24px;
     padding-left: 24px;
     width: 570px;
     height: 60px;
+    color: #fff;
     border: none;
     border-radius: 16px;
     background-color: #414141;
-}
-
-.footer__input {
-    margin-bottom: 24px;
-    color: #fff;
     outline: none;
 }
 

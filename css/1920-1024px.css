@@ -11,6 +11,14 @@
         flex-basis: 50%;
     }
 
+    .left-item-text {
+        margin-right: 100px;
+    }
+
+    .action__right-item {
+        padding: 65px 50px 65px 50px;
+    }
+
     .footer__left-side {
         margin: 0;
     }
@@ -24,12 +32,15 @@
 
 @media (max-width:1400px) {
     .about-us__action {
+        flex-wrap: wrap;
     justify-content: center;
     }
 
     .action__left-side,
     .action__right-side {
         flex-basis: auto;
+        max-width: 924px;
+        min-height: 640px;
     }
 
     .action__left-side {
@@ -42,12 +53,14 @@
     }
 
     .action__right-item {
-        padding: 65px 115px 65px 57px;
+        padding: 65px 154px 65px 77px;
     }
 
     .action__right-icon {
-        margin-right: 50px;
-        }
+        margin-right: 49px;
+        width: 190px;
+        height: 165px;
+    }
 
     .footer__right-block {
         display: none;
