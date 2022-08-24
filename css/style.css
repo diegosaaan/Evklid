@@ -3,7 +3,7 @@
 }
 
 html {
-width: 1920px;
+
     margin: auto;
     font-family: "Montserrat";
     font-size: 16px;
@@ -24,6 +24,12 @@ ul {
     margin: 0;
     display: inline-block;
     list-style-type: none;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
 img {
@@ -56,6 +62,10 @@ img {
     display: flex;
     align-items: center;
     height: 100%;
+}
+
+.burger {
+    display: none;
 }
 
 .header__logo {
@@ -741,7 +751,7 @@ img {
     cursor: pointer;
 }
 
-.footer__left-block {
+.footer__right-block {
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -779,9 +789,3 @@ img {
   
     }
 } */
-
-@media (max-width:1200px) {
-    .popular-quastion__title {
-        max-width: 920px;
-    }
-}

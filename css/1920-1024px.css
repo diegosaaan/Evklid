@@ -1,0 +1,119 @@
+
+@media (max-width:1800px) {
+    
+    .header__nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .action__left-side,
+    .action__right-side {
+        flex-basis: 50%;
+    }
+
+    .footer__left-side {
+        margin: 0;
+    }
+    
+    .footer__center-block {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width:1400px) {
+    .about-us__action {
+    justify-content: center;
+    }
+
+    .action__left-side,
+    .action__right-side {
+        flex-basis: auto;
+    }
+
+    .action__left-side {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .left-item-text {
+        margin-right: 160px;
+    }
+
+    .action__right-item {
+        padding: 65px 115px 65px 57px;
+    }
+
+    .action__right-icon {
+        margin-right: 50px;
+        }
+
+    .footer__right-block {
+        display: none;
+    }
+
+    .footer__center-block {
+        margin-left:  auto;
+        margin-right: 0;
+    }
+}
+
+@media (max-width:1210px) {
+
+    .burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 23px;
+    }
+
+    .burger-line {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: black;
+    }
+
+    .burger-line:first-child {
+        top: 0;
+        left: 0;
+    }
+
+    .burger-line:nth-child(2) {
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .burger-line:last-child {
+        bottom: 0;
+        left: 0;
+    }
+
+    .header__logo {
+        margin-left: auto;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .slider__right-img {
+        display: none;
+    }
+
+    .slider__right-side {
+        width: 50%;
+        min-height: 100%;
+        border-radius: 32px;
+        background-image: url(../img/how-we-work-second.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .popular-quastion__title {
+        max-width: 900px;
+    }
+}
