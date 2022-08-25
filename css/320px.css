@@ -1,0 +1,491 @@
+
+
+@media (max-width:550px) {
+
+    /* HEADER */
+    
+    /* HEADER */
+
+    /* SECTION HERO */
+
+    .hero {
+        margin-top: 30px;
+    }
+
+    .hero__container {
+        padding: 160px 22px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        min-height: 400px;
+        background-image: url(../img/hero-768-first.jpg);
+        border-radius: 24px;
+    }
+
+    .hero__text {
+        text-align: center;
+    }
+
+    .hero__heading {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero__link {
+        margin-bottom: 40px;
+        padding: 13px 28px;
+    }
+
+    /* SECTION HERO */
+
+    /* SECTION ABOUT US */
+
+    .about-us {
+        margin-top: 15px;
+    }
+
+    .about-us__heading {
+        font-size: 30px;
+    }
+
+    .action__left-side {
+        max-height: 700px;
+        margin-bottom: 0;
+        border-radius: 24px;
+    }
+
+    .action__left-dicription {
+        display: block;
+        padding: 19px 20px;
+        border-radius: 24px;
+    }
+
+    .left-item-text {
+       display: block;
+       width: 100%;
+       margin-bottom: 15px;
+       font-size: 14px;
+       line-height: 28px;
+    }
+
+
+    .action_left-link {
+        display: inline-block;
+        padding: 12px 44px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .action__right-item {
+        display: block;
+        padding: 0;
+        margin-bottom: 0;
+        max-width: 668px;
+        border-radius: 24px;
+        border: none;
+    }
+
+    .action__right-item:first-child {
+        margin-bottom: 0;
+    }
+
+    .action__right-description {
+        margin-bottom: 4px;
+        font-size: 18px;
+        line-height: 22px;        
+    }
+
+    .action__right-icon {
+        margin-bottom: 14px;
+    }
+
+
+    /*  ABOUT US */
+
+    /* HOW WE WORK */
+    
+    .how-we-work {
+        margin-top: 40px;
+    }
+
+    .how-we-work__heading {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .how-we-work__list {
+        justify-content: space-between;
+    }
+
+    .how-we-work__item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .slider__left-text {
+        margin-bottom: 25px;
+    }
+
+    .slider__left-link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .slider__left-link-more {
+        padding: 12px 44px;
+    }
+
+    .slider__left-link-contract {
+        padding: 12px 32px;
+    }
+
+    .slider__left-link:not(:last-child) {
+        margin-right: 10px;
+    }
+    
+    /* HOW WE WORK */
+
+   /* POPULAR QUASTION */
+   
+   .popular-quastion {
+       margin-top: 50px;
+   }
+
+   .popular-quastion__heading {
+       font-size: 30px;
+       line-height: 30px;
+   }
+
+   .popular-quastion__title {
+       max-width: 570px;
+       margin-right: 10px;
+   }
+
+   /* POPULAR QUASTION */
+
+   /* FOOTER */
+
+   .footer {
+       margin-top: 60px;
+   }
+   
+   .footer__container {
+        padding: 33px 15px;
+   }
+
+   .footer__heading {
+        font-size: 30px;
+        line-height: 30px;
+   }
+   
+   .footer__data-processing {
+        flex-direction: column;
+   }
+   
+   .footer__button {
+        padding: 12px 28px;
+        margin: 0;
+        margin-right:  auto;
+        margin-left:  auto;
+        margin-bottom: 10px;
+        max-width: 185px;
+   }
+   
+   .footer__agreement {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+   }
+   
+   .footer__left-side,
+   .footer__list-soc {
+        margin-left: auto;
+        margin-right: auto;
+   }
+   
+   .footer__list-soc {
+        width: fit-content;
+   }
+
+  /* FOOTER */
+
+}
+ 
+@media (max-width:320px) {
+
+    .container {
+        max-width: 290px;
+        padding: 0;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    /* HEADER */
+
+    .header__container {
+        border-radius: 16px;
+    }
+
+    .header__logo {
+        width: 110px;
+        height: 35px;
+    }
+
+    /* HEADER */
+
+    /* SECTION HERO */
+
+    .hero {
+        margin-top: 30px;
+    }
+
+    .hero__container {
+        padding: 60px 22px;
+        padding-bottom: 0;
+        min-height: 308px;
+        background-image: url(../img/hero-320-first.jpg);
+        background-size: cover;
+        border-radius: 16px;
+    }
+
+    .hero__heading {
+        margin: 0;
+        margin-bottom: 7px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .hero__description,
+    .hero__link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .hero__description {
+        margin-bottom: 32px;
+    }
+
+    .hero__link {
+        margin-bottom: 60px;
+        padding: 13px 28px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    /* SECTION HERO */
+
+    /* SECTION ABOUT US */
+
+    .about-us {
+        margin-top: 60px;
+    }
+
+    .about-us__text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .about-us__action {
+        margin-top: 14px;
+    }
+
+    .action__left-side {
+        margin-bottom: 0;
+        min-height: 400px;
+        background-image: url(../img/abouts-us-left-320.jpg);
+        background-size: 290px 200px;
+        background-position: top ;
+        border-radius: 16px;
+    }
+
+    .action__left-dicription {
+        background: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .left-item-text {
+        margin: 0;
+        margin-bottom: 12px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        color: #000;
+    }
+
+    .action_left-link {
+        padding: 10px 42px;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FF9900;
+        border: 2px solid;
+        border-radius: 8px;
+    }
+
+    .action__right-icon {
+        margin: 0;
+        margin-top: 29px;
+        margin-bottom: 10px;
+        width: 64px;
+        height: 49px;
+    }
+
+    .action__right_text {
+        margin-top: 4px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+
+    /*  ABOUT US */
+
+    /* HOW WE WORK */
+    
+    .how-we-work__heading {
+        margin-top: 58px;
+    }
+
+    .how-we-work__list {
+        margin-bottom: 10px;
+    }
+
+    .how-we-work__button {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .slider__left-heading {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .slider__left-text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .slider__left-text-br-320 {
+        display: block;
+    }
+
+    .slider__left-text-br {
+        display: block;
+    }
+
+    .slider__left-link {
+        border-radius: 8px;
+    }
+    
+    .slider__right-side {
+        margin-bottom: 18px;
+        min-height: 160px;
+        background-image: url(../img/how-we-work-320-first.jpg);
+        border-radius: 16px;
+    }
+
+    /* HOW WE WORK */
+
+   /* POPULAR QUASTION */
+   
+   .popular-quastion {
+        margin-top: 60px;
+   }
+
+   .popular-quastion__heading {
+        padding-bottom: 16px;
+   }
+
+   .popular-quastion__title {
+        margin-right: 0;
+        max-width: 250px;
+        font-size: 14px;
+        line-height: 24px;
+   }
+
+   .popular-quastion__icon {
+        width: 30px;
+        height: 30px;
+        background-size: 19px 19px;
+   }
+
+   /* POPULAR QUASTION */
+
+   /* FOOTER */
+
+    .footer {
+        margin-top: 60px;
+   }
+
+   .footer__center-block {
+        margin-bottom: 16px;
+   }
+
+   .footer__heading {
+        font-size: 24px;
+        line-height: 29px;
+   }
+
+   .footer__form {
+        margin-top: 20px;
+   }
+
+   .footer__input {
+        padding-left: 20px;
+        font-size: 14px;
+        line-height: 32px;
+   }
+
+   .footer__input-area {
+        padding-top: 15px;
+        margin-bottom: 25px;
+   }
+   
+   .footer__button {
+       margin-bottom: 14px;
+       font-size: 12px;
+       line-height: 15px;
+       border-radius: 8px;
+   }
+
+   .footer__checkbox {
+       margin-right: 5px;
+   }
+
+   .footer__left-side {
+       margin: 0;
+       max-width: 290px;
+       border-top: 1px solid #414141;
+   }
+
+   .footer__logo { 
+       margin-right: auto;
+       margin-left: auto;
+       padding-top: 16px;
+       width: 131px;   
+       height: 42px;
+   }
+
+   .soc__item,
+   .soc__link,
+   .soc__icon-svg {
+       width: 40px;
+       height: 40px;
+   }
+
+   .soc__item {
+       margin-top: 17px;
+   }
+
+   .soc__item:not(:last-child) { 
+       margin-right: 16px;
+   }
+
+  /* FOOTER */
+
+}
+ 

@@ -36,6 +36,7 @@
 
     .hero__container {
         padding: 160px 77px;
+        padding-left: 90px;
         background-image: url(../img/hero-1024px.jpg);
     }
 
@@ -86,12 +87,20 @@
         padding: 34px 50px;
     }
 
+    .action__right-item {
+        padding-bottom: 61px;
+    }
+
     /*  ABOUT US */
 
     /* HOW WE WORK */
     
     .how-we-work {
         margin-top: 65px;
+    }
+
+    .how-we-work__heading {
+        margin-bottom: 47px;
     }
 
     .how-we-work__list {
@@ -135,26 +144,45 @@
    /* FOOTER */
 
    .footer {
-    margin-top: 80px;
+       margin-top: 80px;
    }
 
    .footer__container {
-    padding: 50px;
-    padding-top: 52px;
+       padding: 50px;
+       padding-top: 52px;
+   }
+
+   .footer__left-side {
+       margin-right: 25px;
    }
 
    .footer__center-block {
-    margin: 0;
-    margin-left: auto;
+       margin: 0;
+       margin-left: auto;
    }
 
    .footer__input {
-    max-width: 541px;
+       max-width: 541px;
+   }
+
+   .footer__input-area {
+       margin-bottom: 35px;
    }
 
    .footer__button {
-    max-width: 241px;
-}
+       max-width: 241px;
+       margin-right: 25px;
+    }
 
+    .footer__data-processing {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+     }
+
+     .footer__agreement {
+        display: flex;
+        align-items: center;
+     }
 }
  

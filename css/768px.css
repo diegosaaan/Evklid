@@ -1,9 +1,13 @@
 
 
+@media (max-width:900px) {
+    .left-item-text {
+        margin-right: 80px;}
+}
+
 @media (max-width:768px) {
     .container {
-        max-width: 668px;
-        padding: 0;
+        max-width: 698px;
     }
 
     /* HEADER */
@@ -11,20 +15,24 @@
     .header {
         height: 70px;
     }
+    
+    /* HEADER */
 
-        /* HEADER */
-
-        /* SECTION HERO */
+    /* SECTION HERO */
 
     .hero {
         margin-top: 40px;
     }
 
     .hero__container {
-        padding: 160px 40px;
+        padding: 160px 53px;
+        padding-left: 55px;
         background-image: url(../img/hero-768-first.jpg);
-        background-size: cover;
         border-radius: 24px;
+    }
+
+    .hero__text {
+        max-width: 588px;
     }
 
     .hero__heading {
@@ -92,8 +100,6 @@
 
     .how-we-work__list {
         justify-content: space-between;
-        margin: 0;
-        margin-bottom: 49px;
     }
 
     .how-we-work__slider {
@@ -116,58 +122,63 @@
         display: none;
     }
 
-    
     /* HOW WE WORK */
 
    /* POPULAR QUASTION */
    
-   .popular-quastion {
+    .popular-quastion {
        margin-top: 50px;
-   }
+    }
 
-   .popular-quastion__title {
+    .popular-quastion__title {
        max-width: 570px;
-       margin-right: 50px;
-   }
+       margin-right: 30px;
+    }
 
    /* POPULAR QUASTION */
 
    /* FOOTER */
-
+   
    .footer {
-    margin-top: 112px;
+       margin-top: 112px;
    }
 
    .footer__container {
-    flex-direction: column-reverse;
-    padding: 50px;
-    padding-bottom: 60px;
+       flex-direction: column-reverse;
+       padding: 50px;
+       padding-bottom: 60px;
    }
 
    .footer__logo {
-    margin-bottom: 16px;
+       margin-bottom: 16px;
    }
 
    .footer__list {
-    display: none;
+       display: none;
    }
 
    .footer__list-soc {
-    margin: 0;
+       margin: 0;
    }
 
    .footer__center-block {
-    margin: 0;
-    margin-bottom: 50px;
+       margin: 0;
+       margin-bottom: 50px;
    }
 
    .footer__input {
-    max-width: 541px;
+       max-width: 541px;
+   }
+
+   .footer__input-area {
+       margin-bottom: 33px;
    }
 
    .footer__button {
-    max-width: 241px;
-}
+       max-width: 241px;
+    }
+
+  /* FOOTER */
 
 }
  

@@ -155,6 +155,7 @@ img {
     font-size: 70px;
     line-height: 85px;
     font-weight: 800;
+    color: #fff;
 }
 
 .hero__description {
@@ -273,7 +274,7 @@ img {
 
 .action__right-item {
     display: flex;
-    padding: 65px 115px 65px 61px;
+    padding: 65px 115px 61px 61px;
     border: 1px solid #CACACA;
     border-radius: 32px;
 }
@@ -314,12 +315,12 @@ img {
 }
 
 .how-we-work__heading {
-    margin-bottom: 48px;
+    margin-bottom: 50px;
 }
 
 .how-we-work__list {
     display: flex;
-    margin-bottom: 44px;
+    margin-bottom: 46px;
 }
 
 .how-we-work__item:not(:last-child) {
@@ -370,6 +371,10 @@ img {
     margin-top: 0;
     font-size: 16px;
     line-height: 32px;
+}
+
+.slider__left-text-br-320 {
+    display: none;
 }
 
 .slider__left-text {
@@ -442,7 +447,7 @@ img {
 }
 
 .popular-quastion__heading {
-    padding-bottom: 30px;
+    padding-bottom: 32px;
     font-size: 48px;
     line-height: 59px;
 }
@@ -630,7 +635,7 @@ img {
     margin-top: 90px;
 }
 
-.soc__item {
+.soc__item:not(:last-child) {
     margin-right: 25px;
 }
 
