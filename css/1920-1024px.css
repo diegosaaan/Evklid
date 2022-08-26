@@ -6,11 +6,6 @@
         margin-right: auto;
     }
 
-    .action__left-side,
-    .action__right-side {
-        flex-basis: 50%;
-    }
-
     .left-item-text {
         margin-right: 100px;
     }
@@ -33,7 +28,7 @@
 @media (max-width:1400px) {
     .about-us__action {
         flex-wrap: wrap;
-    justify-content: center;
+        justify-content: center;
     }
 
     .action__left-side,
@@ -113,17 +108,8 @@
         display: none;
     }
 
-    .slider__right-img {
-        display: none;
-    }
-
     .slider__right-side {
-        width: 50%;
-        min-height: 100%;
-        border-radius: 32px;
-        background-image: url(../img/how-we-work-second.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        padding-left: 0;
     }
 
     .popular-quastion__title {

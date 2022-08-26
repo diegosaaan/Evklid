@@ -158,40 +158,41 @@
             <h2 class="how-we-work__heading heading">
                 Как мы работаем
             </h2>
-            <ul class="how-we-work__list">
+            <ul class="how-we-work__list how-we-work__list-reset">
                 <li class="how-we-work__item">
-                    <button type="button" class="how-we-work__button">
+                    <button type="button" class="how-we-work__button how-we-work__button--default" data-path="one" data-default="one">
                         1 шаг
                     </button>
                 </li>
                 <li class="how-we-work__item">
-                    <button type="button" class="how-we-work__button">
+                    <button type="button" class="how-we-work__button" data-path="two" data-default="two">
                         2 шаг
                     </button>
                 </li>
                 <li class="how-we-work__item">
-                    <button type="button" class="how-we-work__button">
+                    <button type="button" class="how-we-work__button" data-path="three" data-default="three">
                         3 шаг
                     </button>
                 </li>
                 <li class="how-we-work__item">
-                    <button type="button" class="how-we-work__button">
+                    <button type="button" class="how-we-work__button" data-path="four" data-default="four">
                         4 шаг
                     </button>
                 </li>
             </ul>    
 
-            <div class="slider how-we-work__slider">
+            <div class="how-we-work__slider tab-content tab-content--active" data-target="one">
                 <div class="slider__left-side">
                     <div class="slider__left-discription">
-                    <div class="slider__left-heading">
-                        Проводим консультацию
+                        <div class="slider__left-heading">
+                            Проводим консультацию
+                        </div>
+                        <p class="slider__left-text">
+                            Влечёт за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. 
+                            <br class="slider__left-text-br">   
+                            А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить <br class="slider__left-text-br-320"> традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+                        </p>
                     </div>
-                    <p class="slider__left-text">
-                        Влечёт за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. 
-                        <br class="slider__left-text-br">   
-                        А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить <br class="slider__left-text-br-320"> традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
-                    </p>
                     <div class="slider__left-btn">
                         <a href="" class="slider__left-link slider__left-link-more">
                             Подробнее
@@ -200,13 +201,99 @@
                             Договор
                         </a>
                     </div>
-                    </div>
                 </div>
-
                 <div class="slider__right-side">
-                    <img src="./img/slider-right.jpg" alt="" class="slider__right-img">
+                    <picture>
+                        <source srcset="./img/slider-right-first-320.jpg" media="(max-width: 320px">
+                        <source srcset="./img/slider-right-first-768.jpg" media="(max-width: 768px">
+                        <source srcset="./img/slider-right-first-1024.jpg" media="(max-width: 1024px">
+                        <img src="./img/slider-right-first-1920.jpg" alt="Проводим консультацию" class="slider__right-img">
+                    </picture>
                 </div>
             </div>
+
+            <div class="how-we-work__slider tab-content" data-target="two">
+                <div class="slider__left-side">
+                    <div class="slider__left-discription">
+                        <div class="slider__left-heading">
+                            Составляем смету
+                        </div>
+                        <p class="slider__left-text">
+                            Внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований.
+                        </p>
+                    </div>
+                    <div class="slider__left-btn">
+                        <a href="" class="slider__left-link slider__left-link-more">
+                            Подробнее
+                        </a>
+                        <a href="" class="slider__left-link slider__left-link-contract">
+                            Договор
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__right-side">
+                    <picture>
+                        <source>
+                        <img src="./img/slider-right-second-1920.jpg" alt="Проводим консультацию" class="slider__right-img">
+                    </picture>
+                </div>
+            </div>
+
+            <div class="how-we-work__slider tab-content" data-target="three">
+                <div class="slider__left-side">
+                    <div class="slider__left-discription">
+                        <div class="slider__left-heading">
+                            ПРивлекаем подрядчиков
+                        </div>
+                        <p class="slider__left-text">
+                            Идейные соображения высшего порядка, а также новая модель организационной деятельности требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнить важные задания по разработке прогресса профессионального сообщества.
+                        </p>
+                    </div>
+                    <div class="slider__left-btn">
+                        <a href="" class="slider__left-link slider__left-link-more">
+                            Подробнее
+                        </a>
+                        <a href="" class="slider__left-link slider__left-link-contract">
+                            Договор
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__right-side">
+                    <picture>
+                        <source>
+                        <img src="./img/slider-right-third-1920.jpg" alt="Проводим консультацию" class="slider__right-img">
+                    </picture>
+                </div>
+            </div>
+
+            <div class="how-we-work__slider tab-content" data-target="four">
+                <div class="slider__left-side">
+                    <div class="slider__left-discription">
+                        <div class="slider__left-heading">
+                            Инспектируем все этапы работ
+                        </div>
+                        <p class="slider__left-text">
+                            Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет.
+                        </p>
+                    </div>
+                    <div class="slider__left-btn">
+                        <a href="" class="slider__left-link slider__left-link-more">
+                            Подробнее
+                        </a>
+                        <a href="" class="slider__left-link slider__left-link-contract">
+                            Договор
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__right-side">
+                    <picture>
+                        <source>
+                        <img src="./img/slider-right-fourth-1920.jpg" alt="Проводим консультацию" class="slider__right-img">
+                    </picture>
+                </div>
+            </div>
+
+            
         </div>
     </section>
 
@@ -296,7 +383,7 @@
         <div class="footer__container">
             <div class="footer__left-side">
                 <div class="footer__logo">
-                    <img src="./img/footer-logo.svg" alt="">     
+                    <img src="./svg/footer-logo.svg" alt="">     
                 </div>
 
                 <ul class="footer__list">
@@ -385,5 +472,10 @@
 
         </div>
     </footer> 
+
+    <script src="./js/burger.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/tabs.js"></script>
+    <script src="./js/accordion.js"></script>
 </body>
 </html>

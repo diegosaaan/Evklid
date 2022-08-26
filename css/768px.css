@@ -112,10 +112,9 @@
     }
 
     .slider__right-side {
-        margin-bottom: 40px;
+        margin-bottom: 38px;
+        padding: 0;
         min-height: 284px;
-        background-image: url(../img/how-we-work-768-first.png);
-        border-radius: 24px;
     }
 
     .slider__left-text-br {

@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+a,
+button {
+    -webkit-tap-highlight-color: transparent;
+}
+
 html {
 
     margin: auto;
@@ -338,6 +343,10 @@ img {
     transition: color .3s linear;
 }
 
+.how-we-work__button--default {
+    color: #FF9900;
+}
+
 .how-we-work__button:hover {
     color: #FF9900;
 }
@@ -355,8 +364,20 @@ img {
     display: flex;
 }
 
+.tab-content {
+    display: none;
+}
+
+.tab-content--active {
+    display: flex;
+}
+
 .slider__left-side {
+    min-height: 470px;
     flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .slider__left-heading {
@@ -367,19 +388,14 @@ img {
 }
 
 .slider__left-text {
+    margin: 0;
     max-width: 760px;
-    margin-top: 0;
     font-size: 16px;
     line-height: 32px;
 }
 
 .slider__left-text-br-320 {
     display: none;
-}
-
-.slider__left-text {
-    display: inline-block;
-    margin-bottom: 18px;
 }
 
 .slider__left-btn {
@@ -429,9 +445,15 @@ img {
 }
 
 .slider__right-side {
-    display: flex;
     padding-top: 10px;
     padding-left: 12px;
+    display: flex;
+    flex-basis: 50%;
+}
+
+.slider__right-img {
+    height: 100%;
+    
 }
 
 /* SECTION HOW WE WORK */
