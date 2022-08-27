@@ -1,10 +1,16 @@
 
 @media (max-width:1800px) {
+
+     /* HEADER */
     
     .header__nav {
         margin-left: auto;
         margin-right: auto;
     }
+
+     /* HEADER */
+
+    /* ABOUT US*/
 
     .left-item-text {
         margin-right: 100px;
@@ -14,6 +20,10 @@
         padding: 65px 50px 65px 50px;
     }
 
+     /* ABOUT US*/
+
+     /* FOOTER */
+
     .footer__left-side {
         margin: 0;
     }
@@ -21,11 +31,16 @@
     .footer__center-block {
         margin-left: auto;
         margin-right: auto;
-    }
+    } 
+    
+    /* FOOTER */
 }
 
 
 @media (max-width:1400px) {
+
+    /* ABOUT US */
+
     .about-us__action {
         flex-wrap: wrap;
         justify-content: center;
@@ -57,6 +72,10 @@
         height: 165px;
     }
 
+    /* ABOUT US */
+
+    /* FOOTER */
+
     .footer__right-block {
         display: none;
     }
@@ -65,9 +84,13 @@
         margin-left:  auto;
         margin-right: 0;
     }
+
+    /* FOOTER */
 }
 
 @media (max-width:1210px) {
+
+    /* HEADER */
 
     .burger {
         display: block;
@@ -105,14 +128,77 @@
     }
 
     .header__nav {
-        display: none;
+        position: absolute;
+        padding: 50px;
+        top: 0;
+        left: -100vw;
+        min-width: 420px;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 100;
+        transition: left .3s ease-in-out;
     }
+
+    .header__list {
+        flex-direction: column;
+    }
+
+    .header__item {
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+
+    .header__link {
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 700;
+    }
+
+    .menu-close {
+        position: relative;
+        display: block;
+        margin-bottom: 107px;
+        width: 23px;
+        height: 23px;
+    }
+
+    .menu-close::before, 
+    .menu-close::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+    }
+
+    .menu-close::before {
+        transform: rotate(45deg);
+    }
+
+    .menu-close::after {
+        transform: rotate(-45deg);
+    }
+
+    .header__nav.burger-active {
+        left: 0;
+        transition: left .3s ease-in-out;
+    }
+
+     /* HEADER */
+
+     /* HOW WE WORK */
 
     .slider__right-side {
         padding-left: 0;
     }
 
+    /* HOW WE WORK */
+
+    /* QUASTIONS */
+
     .popular-quastion__title {
         max-width: 900px;
     }
+
+    /* QUASTIONS */
 }
