@@ -36,8 +36,21 @@
 
     .hero__container {
         padding: 160px 77px;
-        padding-left: 90px;
-        background-image: url(../img/hero-1024px.jpg);
+        padding-left: 75px;
+        max-width: 924px;
+        min-height: 668px;
+    }
+
+    .first-slide {
+        background-image: url(../img/hero-first-1024.jpg);
+    }
+
+    .second-slide {
+        background-image: url(../img/hero-second-1024.jpg);
+    }
+    
+    .third-slide {
+        background-image: url(../img/hero-third-1024.jpg);
     }
 
     .hero__heading {
@@ -48,7 +61,8 @@
     }
     
     .hero__description {
-        margin-bottom: 60px;
+        margin-bottom: 85px;
+        max-width: 660px;
         font-weight: 700;
         font-size: 20px;
         line-height: 24px;
@@ -72,7 +86,7 @@
     }
 
     .about-us__action {
-        margin-top: 58px;
+        margin-top: 60px;
     }
 
     .about-us__text {
@@ -116,7 +130,7 @@
     .slider__left-side {
         display: flex;
         flex-basis: auto;
-        width: 437px;
+        max-width: 437px;
     }
 
     .slider__left-text {
@@ -149,7 +163,6 @@
 
    .footer__container {
        padding: 50px;
-       padding-top: 52px;
    }
 
    .footer__left-side {
@@ -171,7 +184,11 @@
 
    .footer__button {
        max-width: 241px;
-       margin-right: 25px;
+       margin-right: 18px;
+    }
+
+    .footer__checkbox {
+        margin-right: 0;
     }
 
     .footer__data-processing {
@@ -181,8 +198,11 @@
      }
 
      .footer__agreement {
-        display: flex;
-        align-items: center;
+        transform: translateY(1px);
+     }
+
+     .footer__checkbox-text {
+        transform: translateY(-2px);
      }
 }
  

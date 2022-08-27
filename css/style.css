@@ -136,17 +136,46 @@ img {
 }
 
 .hero__container {
-    padding-top: 100px;
-    padding-left: 98px;
-    border-radius: 32px;
-    background-image: url(../img/hero-background.jpg);
+    position: relative;
+    padding-top: 101px;
+    padding-left: 97px;
+    min-height: 620px;
     background-repeat: no-repeat;
     background-position: center;
-    
+   
+}
+
+.swiper {
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;  
+    border-radius: 32px;
+}
+
+.swiper-slide {
+    min-height: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.first-slide {
+    background-image: url(../img/hero-first-1920.jpg);
+}
+
+.second-slide {
+    background-image: url(../img/hero-second-1920.jpg);
+}
+
+.third-slide {
+    background-image: url(../img/hero-third-1920.jpg);
 }
 
 .hero__text {
-    max-width: 840px;
+    position: relative;
+    max-width: 895px;
+    z-index: 2;
 }
 
 .hero__description,
@@ -164,14 +193,13 @@ img {
 }
 
 .hero__description {
-    margin-bottom: 90px;
+    margin-bottom: 115px;
     max-width: 790px;
     font-size: 24px;
     line-height: 29px;
 }
 
 .hero__link {
-    display: inline-block;
     margin-bottom: 100px;
     padding: 25px 39px;
     font-size: 23px;
@@ -191,12 +219,36 @@ img {
     background-color:#E1670E;
 }
 
+.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 28px;
+    left: 0;
+    width: 100%;
+}
+
+button.btn.btn_round {
+    width: 15px ;
+    height: 15px ;
+    border-color: #fff;
+}
+
+button.btn.btn_round:not(:last-child) {
+    margin-right: 18px;
+}
+
+button.swiper-pagination-bullet {
+    background-color: #CACACA;
+}
+
+button.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
 /* SECTION HERO */
 
 /* SECTION ABOUTS-US */
 
 .about-us {
-    margin-top: 48px;
+    margin-top: 50px;
 }
 
 .about-us__text {
@@ -373,7 +425,7 @@ img {
 }
 
 .slider__left-side {
-    min-height: 470px;
+    min-height: 469px;
     flex-basis: 50%;
     display: flex;
     flex-direction: column;
@@ -461,7 +513,7 @@ img {
 /* SECTION POPULAR QUASTION */
 
 .popular-quastion {
-    margin-top: 112px;
+    margin-top: 108px;
 }
 
 .popular-quastion__list {
@@ -730,12 +782,13 @@ img {
 
 .footer__data-processing {
     display: flex;
+    justify-content: flex-start;
     align-items: center;    
 }
 
 .footer__button {
     margin-top: 0;
-    margin-right: 22px;
+    margin-right: 20px;
     padding: 19px 32px;
     width: 270px;
     font-size: 16px;
@@ -755,6 +808,10 @@ img {
 
 .footer__button:active {
     background-color: #E1670E;
+}
+
+.footer__agreement {
+    transform: translateY(4px);
 }
 
 .footer__checkbox {

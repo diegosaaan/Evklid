@@ -12,15 +12,6 @@
         margin-top: 30px;
     }
 
-    .hero__container {
-        padding: 160px 22px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        min-height: 400px;
-        background-image: url(../img/hero-768-first.jpg);
-        border-radius: 24px;
-    }
-
     .hero__text {
         text-align: center;
     }
@@ -197,6 +188,14 @@
         justify-content: center;
         flex-wrap: wrap;
    }
+
+   .footer__checkbox {
+       margin-right: 3px;
+   }
+
+   .footer__checkbox-text {
+       transform: none;
+ }
    
    .footer__left-side,
    .footer__list-soc {
@@ -217,6 +216,11 @@
     .container {
         max-width: 290px;
         padding: 0;
+    }
+
+    .header {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
     }
 
     .heading {
@@ -246,10 +250,24 @@
     .hero__container {
         padding: 60px 22px;
         padding-bottom: 0;
+        max-width: 290px;
         min-height: 308px;
+    }
+
+    .swiper {
+        border-radius: 8px;
+    }
+
+    .first-slide {
         background-image: url(../img/hero-320-first.jpg);
-        background-size: cover;
-        border-radius: 16px;
+    }
+
+    .second-slide {
+        background-image: url(../img/hero-second-320.jpg);
+    }
+    
+    .third-slide {
+        background-image: url(../img/hero-third-320.jpg);
     }
 
     .hero__heading {
@@ -266,7 +284,7 @@
     }
 
     .hero__description {
-        margin-bottom: 32px;
+        margin-bottom: 43px;
     }
 
     .hero__link {
@@ -274,6 +292,15 @@
         padding: 13px 28px;
         border: none;
         border-radius: 8px;
+    }
+
+    .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 15px;
+    }
+
+    button.btn.btn_round {
+        width: 10px ;
+        height: 10px ;
     }
 
     /* SECTION HERO */
@@ -348,6 +375,7 @@
     
     .how-we-work__heading {
         margin-top: 58px;
+        margin-bottom: 18px;
     }
 
     .how-we-work__list {
@@ -395,7 +423,7 @@
    }
 
    .popular-quastion__heading {
-        padding-bottom: 16px;
+        padding-bottom: 14px;
    }
 
    .popular-quastion__title {

@@ -15,20 +15,40 @@
     .header {
         height: 70px;
     }
+
+    .header__container {
+        border-radius: 24px;
+    }
     
     /* HEADER */
 
     /* SECTION HERO */
 
     .hero {
-        margin-top: 40px;
+        margin-top: 37px;
     }
 
     .hero__container {
-        padding: 160px 53px;
-        padding-left: 55px;
-        background-image: url(../img/hero-768-first.jpg);
+        padding: 162px 53px;
+        padding-left: 40px;
+        max-width: 668px;
+        max-height: 662px;
+    }
+
+    .swiper {
         border-radius: 24px;
+    }
+
+    .first-slide {
+        background-image: url(../img/hero-first-768.jpg);
+    }
+
+    .second-slide {
+        background-image: url(../img/hero-second-768.jpg);
+    }
+    
+    .third-slide {
+        background-image: url(../img/hero-third-768.jpg);
     }
 
     .hero__text {
@@ -46,12 +66,20 @@
         line-height: 22px;
     }
 
+    .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 30px;
+    }
+
     /* SECTION HERO */
 
     /* SECTION ABOUT US */
 
     .about-us {
         margin-top: 32px;
+    }
+
+    .about-us__action {
+        margin-top: 55px;
     }
 
     .action__left-side {
@@ -108,7 +136,7 @@
     
     .slider__right-side,
     .slider__left-side {
-        width: 100%;
+        max-width: 668%;
     }
 
     .slider__right-side {

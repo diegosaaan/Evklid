@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/1024px.css">
     <link rel="stylesheet" href="./css/768px.css">
     <link rel="stylesheet" href="./css/320px.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <title>Evklid</title>
 </head>
 <body>
@@ -85,11 +86,19 @@
                 <div class="hero__description">
                         Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
                 </div>
-                <a href="" class="hero__link">
+                <a href="#" class="hero__link">
                         Заказать расчёт
                  </a>
             </div>
-        </div>
+             <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide first-slide"></div>
+                      <div class="swiper-slide second-slide"></div>
+                      <div class="swiper-slide third-slide"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
     </section>
 
     <!-- SECTION HERO -->
@@ -233,7 +242,9 @@
                 </div>
                 <div class="slider__right-side">
                     <picture>
-                        <source>
+                        <source srcset="./img/slider-right-second-320.jpg" media="(max-width: 320px">
+                        <source srcset="./img/slider-right-second-768.jpg" media="(max-width: 768px">
+                        <source srcset="./img/slider-right-second-1024.jpg" media="(max-width: 1024px">
                         <img src="./img/slider-right-second-1920.jpg" alt="Проводим консультацию" class="slider__right-img">
                     </picture>
                 </div>
@@ -260,7 +271,9 @@
                 </div>
                 <div class="slider__right-side">
                     <picture>
-                        <source>
+                        <source srcset="./img/slider-right-third-320.jpg" media="(max-width: 320px">
+                        <source srcset="./img/slider-right-third-768.jpg" media="(max-width: 768px">
+                        <source srcset="./img/slider-right-third-1024.jpg" media="(max-width: 1024px">
                         <img src="./img/slider-right-third-1920.jpg" alt="Проводим консультацию" class="slider__right-img">
                     </picture>
                 </div>
@@ -287,7 +300,9 @@
                 </div>
                 <div class="slider__right-side">
                     <picture>
-                        <source>
+                        <source srcset="./img/slider-right-fourth-320.jpg" media="(max-width: 320px">
+                        <source srcset="./img/slider-right-fourth-768.jpg" media="(max-width: 768px">
+                        <source srcset="./img/slider-right-fourth-1024.jpg" media="(max-width: 1024px">
                         <img src="./img/slider-right-fourth-1920.jpg" alt="Проводим консультацию" class="slider__right-img">
                     </picture>
                 </div>
@@ -474,6 +489,7 @@
     </footer> 
 
     <script src="./js/burger.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
     <script src="./js/tabs.js"></script>
     <script src="./js/accordion.js"></script>
