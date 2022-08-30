@@ -85,7 +85,9 @@ img {
 }
 
 .header__nav {
-    margin-right: 247px;
+    display: flex;
+    align-items: center;
+    margin-right: 258px;
 }
 
 .header__list {
@@ -381,7 +383,7 @@ button.swiper-pagination-bullet-active {
 }
 
 .how-we-work__item:not(:last-child) {
-    margin-right: 72px;
+    margin-right: 85px;
 }
 
 .how-we-work__button {
@@ -505,7 +507,6 @@ button.swiper-pagination-bullet-active {
 
 .slider__right-img {
     height: 100%;
-    
 }
 
 /* SECTION HOW WE WORK */
@@ -513,6 +514,101 @@ button.swiper-pagination-bullet-active {
 /* SECTION POPULAR QUASTION */
 
 .popular-quastion {
+    margin-top: 108px;
+}
+
+.popular-quastion__heading {
+    padding-bottom: 32px;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.popular-quastion__accordion {
+    border-bottom: 1px solid #CACACA;
+}
+
+.popular-quastion__wrapper {
+    position: relative  ;
+    padding: 39px 0;
+    border-top: 1px solid  #CACACA;
+    border-bottom: 1px solid #CACACA;
+    margin-bottom: -1px;
+    outline: none;
+}
+
+.popular-quastion__title {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #333333;
+    outline: none;
+}
+
+.accordion-icon {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;   
+    right: 0;
+    background-image: url('/img/accordion-js-default.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #CACACA;
+    border-radius: 100%;
+    transition: .3s ease-in-out;
+}
+
+.ui-accordion-content {
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.popular-quastion__discription {
+    font-size: 16px;
+    line-height: 32px;
+    width: 1003px;
+}
+
+.popular-quastion__text {
+    margin: 0;
+}
+
+.popular-quastion__text:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.popular-quastion__title:hover .accordion-icon {
+    background-color: #FF9900;
+    background-image: url(/img/accordion-js-hover.svg);
+}
+
+.ui-state-active .accordion-icon {
+    transform: rotate(45deg);
+    transition: transform .3s ease-in-out,
+    background-image .3s ease-out;
+}
+
+.ui-state-hover {
+    border-color: #FF9900;
+    color: #FF9900;
+    cursor: pointer;
+    z-index: 10;
+    transition: color .3s ease-in-out;
+}
+
+.ui-state-focus {
+    border-color: #FF9900;
+    transition: .3s ease-in-out;
+    z-index: 10;
+}
+
+
+
+
+/* .popular-quastion {
     margin-top: 108px;
 }
 
@@ -591,7 +687,9 @@ button.swiper-pagination-bullet-active {
 .popular-quastion__details[open] .popular-quastion__icon {
     background-image: url(../img/accordion-open.svg);
     background-color: #CACACA;
-}
+} */
+
+/* АККОРДЕОН НА ПСЕВДОКЛАССАХ */
 
 /* .popular-quastion__summary,
 .popular-quastion__summary:hover,
@@ -645,6 +743,8 @@ button.swiper-pagination-bullet-active {
     background: url(../img/+\ открыт.jpg);
     background-repeat: no-repeat;
 } */
+
+/* АККОРДЕОН НА ПСЕВДОКЛАССАХ */
 
 .popular-quastion__text {
     display: block;

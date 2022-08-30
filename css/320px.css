@@ -157,8 +157,8 @@
    }
 
    .popular-quastion__title {
-       max-width: 570px;
-       margin-right: 10px;
+       max-width: 450px;
+       margin-right: 60px;
    }
 
    /* POPULAR QUASTION */
@@ -388,7 +388,7 @@
     }
 
     .how-we-work__list {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .how-we-work__button {
@@ -419,7 +419,7 @@
     }
     
     .slider__right-side {
-        margin-bottom: 18px;
+        margin-bottom: 15px;
         min-height: 160px;
     }
 
@@ -435,6 +435,10 @@
         padding-bottom: 14px;
    }
 
+   .popular-quastion__wrapper {
+        padding: 30px 0;
+   }
+
    .popular-quastion__title {
         margin-right: 0;
         max-width: 250px;
@@ -442,11 +446,21 @@
         line-height: 24px;
    }
 
-   .popular-quastion__icon {
+   .accordion-icon {
+       width: 30px;
+       height: 30px; 
+       background-size: 19px 19px; 
+   }
+
+   .ui-accordion-content {
+       max-width: 290px;
+   }
+
+   /* .popular-quastion__icon {
         width: 30px;
         height: 30px;
         background-size: 19px 19px;
-   }
+   } */
 
    /* POPULAR QUASTION */
 

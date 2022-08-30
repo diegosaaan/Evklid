@@ -118,7 +118,7 @@
     }
 
     .how-we-work__list {
-        margin-bottom: 49px;
+        margin-bottom: 51px;
     }
 
     .how-we-work__slider {
@@ -145,20 +145,29 @@
        margin-top: 80px;
    }
 
-   .popular-quastion__item {
+   .popular-quastion__wrapper {
+      padding: 35px 0;
+   }
+
+   /* .popular-quastion__item {
+       font-size: 20px;
+   } */
+
+   .popular-quastion__title {
+       max-width: 90vw;
        font-size: 20px;
    }
 
-   .popular-quastion__title {
-       max-width: 756px;
-   }
+   .ui-accordion-content {
+       max-width: 90vw;
+    }
 
    /* POPULAR QUASTION */
 
    /* FOOTER */
 
    .footer {
-       margin-top: 80px;
+       margin-top: 82px;
    }
 
    .footer__container {

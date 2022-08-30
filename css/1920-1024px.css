@@ -74,6 +74,14 @@
 
     /* ABOUT US */
 
+    /* POPULAR QUASTION */
+
+    .ui-accordion-content {
+        max-width: 1024px;
+    }
+
+    /* POPULAR QUASTION */
+
     /* FOOTER */
 
     .footer__right-block {
@@ -128,6 +136,7 @@
     }
 
     .header__nav {
+        display: block;
         position: absolute;
         padding: 50px;
         top: 0;
@@ -199,6 +208,11 @@
     .popular-quastion__title {
         max-width: 900px;
     }
+    
+    .ui-accordion-content {
+        max-width: 900px;
+    }
+
 
     /* QUASTIONS */
 }
