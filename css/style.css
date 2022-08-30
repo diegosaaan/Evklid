@@ -553,7 +553,7 @@ button.swiper-pagination-bullet-active {
     width: 50px;
     height: 50px;   
     right: 0;
-    background-image: url('/img/accordion-js-default.svg');
+    background-image: url('../img/accordion-js-default.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 31px 31px;
