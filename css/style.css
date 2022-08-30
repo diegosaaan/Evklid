@@ -556,6 +556,7 @@ button.swiper-pagination-bullet-active {
     background-image: url('/img/accordion-js-default.svg');
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: 31px 31px;
     background-color: #CACACA;
     border-radius: 100%;
     transition: .3s ease-in-out;
