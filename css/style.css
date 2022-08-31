@@ -1016,11 +1016,6 @@ button.swiper-pagination-bullet-active {
     background-color: #E1670E;
 }
 
-.footer__agreement {
-    -webkit-transform: translateY(4px);
-        -ms-transform: translateY(4px);
-            transform: translateY(4px);
-}
 
 /* НЕ РАБОТАЕТ ДЛЯ IE */
 
@@ -1046,12 +1041,15 @@ button.swiper-pagination-bullet-active {
 .footer__checkbox+.footer__checkbox-text::before {
     content: '';
     display: inline-block;
-    margin-right: 3px;
-    width: 14px;
-    height: 14px;
+    margin-right: 2px;
+    width: 12px;
+    height: 12px;
     border: 1px solid #CACACA;
     border-radius: 2px;
     cursor: pointer;
+    -webkit-transform: translateY(1px);
+        -ms-transform: translateY(1px);
+            transform: translateY(1px);
 }
 
 .footer__checkbox:checked+.footer__checkbox-text::before {
