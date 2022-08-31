@@ -187,6 +187,8 @@ img {
 }
 
 .hero__heading {
+    margin-top: 0;
+    padding: 0;
     margin-bottom: 24px;
     font-size: 70px;
     line-height: 85px;
