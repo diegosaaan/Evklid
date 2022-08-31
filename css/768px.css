@@ -131,11 +131,16 @@
     }
 
     .how-we-work__list {
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
     .how-we-work__slider {
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
     
     .slider__right-side,
@@ -179,7 +184,10 @@
    }
 
    .footer__container {
-       flex-direction: column-reverse;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: reverse;
+           -ms-flex-direction: column-reverse;
+               flex-direction: column-reverse;
        padding: 50px;
        padding-bottom: 60px;
    }
