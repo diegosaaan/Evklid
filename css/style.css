@@ -1038,6 +1038,12 @@ button.swiper-pagination-bullet-active {
     display: none;
 }
 
+.footer__checkbox+.footer__checkbox-text {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
 .footer__checkbox+.footer__checkbox-text::before {
     content: '';
     display: inline-block;
@@ -1047,9 +1053,6 @@ button.swiper-pagination-bullet-active {
     border: 1px solid #CACACA;
     border-radius: 2px;
     cursor: pointer;
-    -webkit-transform: translateY(1px);
-        -ms-transform: translateY(1px);
-            transform: translateY(1px);
 }
 
 .footer__checkbox:checked+.footer__checkbox-text::before {
