@@ -1035,7 +1035,8 @@ button.swiper-pagination-bullet-active {
 /* НЕ РАБОТАЕТ ДЛЯ IE */
 
 .footer__checkbox {
-    display: none;
+    position: absolute;
+    z-index: -1;
 }
 
 .footer__checkbox+.footer__checkbox-text {
